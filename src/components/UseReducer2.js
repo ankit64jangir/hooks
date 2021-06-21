@@ -14,16 +14,7 @@ function reducer(state, action) {
 }
 
 export default function UseReducer1() {
-  // const [counter, setCounter] = useState(0);
   const [state, dispatch] = useReducer(reducer, intialValue);
-
-  // const increment = () => {
-  //   setCounter(counter + 1);
-  // };
-
-  // const decrement = () => {
-  //   setCounter(counter - 1);
-  // };
 
   return (
     <div className="App">
